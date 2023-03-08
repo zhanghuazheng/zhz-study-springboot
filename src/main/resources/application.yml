@@ -1,0 +1,19 @@
+#项目端口配置
+server:
+  port: 3600
+
+# 数据源配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: zhz123456
+    url: jdbc:mysql://localhost:3306/yinuo?characterEncoding=utf8&useUnicode=true&useSSL=false&serverTimezone=Asia/Shanghai
+#项目名称
+  application:
+    name: springboot-study
+
+#mybatis 配置
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.huazheng.springboot.study.entity
