@@ -21,7 +21,7 @@ spring:
       db1:
         username: root
         password: zhz123456
-        url: jdbc:mysql://localhost:3306/yinuo?characterEncoding=utf8&useUnicode=true&useSSL=false&serverTimezone=Asia/Shanghai
+        url: jdbc:mysql://localhost:3306/smartboot?characterEncoding=utf8&useUnicode=true&useSSL=false&serverTimezone=Asia/Shanghai
         driver-class-name: com.mysql.cj.jdbc.Driver
         initial-size: 5  # 初始化大小
         min-idle: 5  # 最小
@@ -75,4 +75,4 @@ logging:
     java.sql: debug
     org.apache.ibatis: debug
     com.demo.mapper: debug
-#  config: classpath:logback-spring.xml
+  config: classpath:logback.xml

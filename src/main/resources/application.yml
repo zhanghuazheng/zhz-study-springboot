@@ -21,3 +21,7 @@ server:
 spring:
   profiles:
     active: dev
+
+#代码生成器模版
+generator:
+  template: /template/maku-boot
