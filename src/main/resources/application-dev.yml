@@ -62,12 +62,12 @@ spring:
         pool-prepared-statements: true
         max-pool-prepared-statement-per-connection-size: 20
 
-mybatis:
-  mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.huazheng.springboot.study.entity
-  configuration:
-    log-impl:
-    mapUnderscoreToCamelCase: true
+#mybatis:
+#  mapper-locations: classpath:mapper/*.xml
+#  type-aliases-package: com.huazheng.springboot.study.entity
+#  configuration:
+#    log-impl:
+#    mapUnderscoreToCamelCase: true
 
 #showSql
 logging:
