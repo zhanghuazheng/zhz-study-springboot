@@ -23,5 +23,5 @@ spring:
     active: dev
 
 #代码生成器模版
-generator:
-  template: /template/maku-boot
+#generator:
+#  template: /template/maku-boot
